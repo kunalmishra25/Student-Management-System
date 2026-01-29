@@ -44,5 +44,4 @@ public class StudentManager {
         System.out.println("RollNo:"+s.getRoll()+" Name:"+s.getname()+" Course:"+s.getCourse());
         }
      }
-
     }
