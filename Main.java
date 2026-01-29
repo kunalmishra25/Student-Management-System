@@ -46,11 +46,14 @@ public static void main(String[] args) {
     else if(subchoice==2){
         System.out.println("Menu");
          }
-        }else{
+        }else if(choice==4){
+            System.out.println("Thank You");
+            break;
+        }
+        else{
             System.out.println("Invalid Choice");
             break;
         }
-
       }
     }
 
