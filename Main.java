@@ -21,7 +21,6 @@ public static void main(String[] args) {
 
         System.out.println("Course");
         String course = sc.nextLine();
-
         sm.addStudent(new Student(name, RollNo, course));
     }
     else if(choice==3){
