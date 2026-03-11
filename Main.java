@@ -4,11 +4,15 @@ public static void main(String[] args) {
     Scanner sc  = new Scanner(System.in);
     StudentManager sm = new StudentManager();
     while(true){
-    System.out.println("1. Add Student");
-    System.out.println("2. View Students");
-    System.out.println("3. Search Student");
-    System.out.println("4. Exit");
-    System.out.print("Choose:");
+   System.out.println("\n╔══════════════════════════════╗");
+    System.out.println("║       STUDENT MANAGEMENT     ║");
+    System.out.println("╠══════════════════════════════╣");
+    System.out.println("║ 1. Add Student               ║");
+    System.out.println("║ 2. View Students             ║");
+    System.out.println("║ 3. Search Student            ║");
+    System.out.println("║ 4. Exit                      ║");
+    System.out.println("╚══════════════════════════════╝");
+    System.out.print("Choose an option: ");
     int choice = sc.nextInt();
     sc.nextLine();
     if(choice==1){

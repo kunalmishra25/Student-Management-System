@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 public class StudentManager {
      private  ArrayList<Student> students = new ArrayList<>();
-      
-
      public void addStudent(Student s){
       for(Student st:students){
          int roll = 0;
